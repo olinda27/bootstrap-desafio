@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*Estilos generales*/
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    /*Tamaño de letra*/
+    --text-large:2.8rem;
+    --text-medium:1.6rem;
+    --text-tittle:2.3rem;
+    --text-base:1.5rem;
+    --text-small:1.2rem;
+
+    /*Colores*/
+    --color-titulos:rgb(55,75,115);
+    --color-textos:rgb(125,125,125);
+    --color-fondos:rgba(255,241,237,0.8);
+    --color-alternativo:rgb(255,129,151);
+    --color-background: rgb(255, 129, 151, 0.8);
+}
+
+/*Estilos navbar*/
+
+#navbar{
+    border-bottom: 2px var(--color-alternativo) solid;
+}
+
+#navbar img{
+    width: 100px;
+}
+
+#navbar ul ul{
+    margin-top: 18px;
+}
+
+#navbar ul ul li{
+    line-height: 40px;
+}
+
+#navbar a{
+    color: var(--color-titulos);
+    font-size: var(--text-base);
+}
+
+.bg-softpink{
+   background-color: var(--color-fondos);
+}
+
+/*Estilos comunes*/
+.colorTitulos{
+    color: var(--color-titulos)
+}
+
+.colorParrafos{
+    color: var(--color-textos);
+}
+
+.bordeComun{
+    border: 2px dotted var(--color-alternativo);
+}
+
+/*Estilos contenido principal*/
+#contenidoPrincipal h1{
+    font-size: var(--text-large);
+}
+
+#contenidoPrincipal p{
+    font-size: var(--text-base);
+}
+
+#contenidoPrincipal h2{
+    font-size: var(--text-tittle);
+}
+
+/*Estilo de links aside*/
+
+#links{
+    background: linear-gradient(to bottom, var(--color-fondos), var(--color-background));
+    border-radius: 20px;
+}
+
+#links h4{
+    font-size: var(--text-tittle);
+}
+
+#links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#links ul li{
+    line-height: 30px;
+}
+
+#links ul li a{
+    text-decoration: none;
+    color: var(--color-titulos);
+    font-size: var(--text-base);
+}
+
+#links ul li:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+#links ul li a:hover{
+    color: rgb(0, 0, 0);
+    transition: all 1s;
+}
+
+/*Estilos de Footer*/
+#footer{
+    border-top: 2px var(--color-alternativo) solid;
+    padding: 5px;
+    text-align: center;
+    background-color: var(--color-fondos);
+}
+
+#footer h4{
+    font-size: var(--text-small);
+}
