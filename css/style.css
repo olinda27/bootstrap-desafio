@@ -83,6 +83,16 @@ body{
     font-size: var(--text-tittle);
 }
 
+#contenidoPrincipal a{
+    text-decoration: none;
+    color: var(--color-titulos);
+    font-size: var(--text-medium);
+}
+
+#contenidoPrincipal img{
+    border-radius: 10px;
+}
+
 /*Estilo de links aside*/
 
 #links{
