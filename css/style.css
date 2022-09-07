@@ -66,6 +66,10 @@ body{
     border: 2px dotted var(--color-alternativo);
 }
 
+.bordeRadius{
+    border-radius: 20px;
+}
+
 /*Estilos contenido principal*/
 #contenidoPrincipal h1{
     font-size: var(--text-large);
