@@ -141,3 +141,20 @@ body{
 #footer h4{
     font-size: var(--text-small);
 }
+
+/*Contacto*/
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: var(--color-alternativo);
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#form form,iframe{
+    width: 390px;
+    height: 350px;
+    padding: 12px 20px;
+}
