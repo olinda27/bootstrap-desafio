@@ -27,7 +27,6 @@ body{
 }
 
 /*Estilos navbar*/
-
 #navbar{
     border-bottom: 2px var(--color-alternativo) solid;
 }
